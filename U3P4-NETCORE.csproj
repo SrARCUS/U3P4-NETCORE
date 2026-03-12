@@ -7,4 +7,13 @@
     <RootNamespace>U3P4_NETCORE</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Include="wwwroot\css\styles.css" />
+    <None Include="wwwroot\js\app.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Views\Carrito\" />
+  </ItemGroup>
+
 </Project>
