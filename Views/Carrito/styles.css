@@ -1,0 +1,27 @@
+/* styles.css — Estilos complementarios a Bootstrap */
+
+/* Transición suave al agregar items */
+#lista .list-group-item {
+    animation: slideIn 0.25s ease;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-8px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Barra de progreso con transición */
+.progress-bar {
+    transition: width 0.4s ease, background-color 0.3s ease;
+}
+
+/* Ocultar el span de precio interno (solo para cálculos) */
+.producto-precio {
+    display: none !important;
+}
